@@ -6,8 +6,8 @@
 strategy:
   matrix:
 
-    selfhosted:
-      vmImage:
+pool:
+  default
 
 steps:
 - task: NodeTool@0
