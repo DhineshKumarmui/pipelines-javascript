@@ -6,8 +6,11 @@
 trigger:
 - master
 
-pool:
-  vmImage: 	DESKTOP-DEMO
+strategy:
+  matrix:
+
+    selfhosted:
+      vmImage:
 
 steps:
 - task: NodeTool@0
